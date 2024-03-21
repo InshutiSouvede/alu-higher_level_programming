@@ -4,7 +4,8 @@ from urllib.request import Request, urlopen
 
 
 if __name__ == "__main__":
-    req = Request("https://alx-intranet.hbtn.io/status")
+    # alx-https://intranet.hbtn.io
+    req = Request("https://intranet.hbtn.io/status")
     with urlopen(req) as response:
         body = response.read()
         print("Body response:")
